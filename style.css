@@ -30,6 +30,7 @@
 body {
     background-color: #f1f5bf;
     font-family: var(--fonte-padrão);
+    text-align: justify;
 }
 
 header {
@@ -50,16 +51,15 @@ header > h1 {
 
 main h1 {
     font-family: var(--fonte-idroid);
+    text-align: center;
     font-size: 2em;
     font-weight: normal;
-    text-indent: 20px;
     color: var(--cor4);
 }
 
 main h2 {
     font-family: var(--fonte-idroid);
     font-weight: normal;
-    text-indent: 20px;
     color: var(--cor4);
     font-size: 1.6em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
@@ -126,7 +126,7 @@ p {
     padding: 20px 10px;
     padding-bottom: 30px;
     line-height: 25px;
-    text-indent:40px;
+    text-indent:20px;
 }
 
 nav {
